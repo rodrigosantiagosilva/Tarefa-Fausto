@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+#taskList .list {
+  background-color: #7df7f7ce;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#taskList .finish {
+    background-color: #61d652;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.correctButton{
+  background-color:rgb(41, 231, 35);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.correctButton:hover{
+    background-color: rgb(119, 62, 151);
+}
+
+.Blank{
+    display: none;
+}
+.removeButton {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.removeButton:hover {
+  background-color: #fd5d5d;
+}
